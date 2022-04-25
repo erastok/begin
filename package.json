@@ -1,0 +1,19 @@
+{
+  "name": "begin-app",
+  "version": "0.0.0",
+  "description": "Basic Begin personal website",
+  "scripts": {
+    "start": "sandbox",
+    "test": "cross-env NODE_ENV=testing tape 'test/**/*-test.js' | tap-arc"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "@architect/sandbox": "^4.5.2",
+    "@begin/data": "^3.0.4",
+    "tap-arc": "^0.3.4",
+    "tape": "^5.5.3",
+    "tiny-json-http": "^7.4.2"
+  }
+}
